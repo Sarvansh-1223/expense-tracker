@@ -25,8 +25,8 @@ export default function Sidebar({ open, onClose }) {
   return (
     <aside className={`sidebar ${open ? "open" : ""}`}>
       <div className="brand" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
-          <span className="brand-mark">Ledger</span>
+        <div style={{ display: "flex", alignItems: "baseline", gap: 0 }}>
+          <span className="brand-mark">FinTrack</span>
           <span className="brand-tick">·fin</span>
         </div>
         <button className="icon-btn" onClick={onClose} style={{ display: open ? "flex" : "none" }} aria-label="Close menu">

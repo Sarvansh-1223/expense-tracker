@@ -28,7 +28,7 @@ export default function Login() {
     <div className="auth-wrap">
       <div className="auth-card">
         <div className="auth-mark">
-          <span className="brand-mark">Ledger</span>
+          <span className="brand-mark">FinTrack</span>
           <p style={{ color: "var(--ink-muted)", fontSize: 13.5, marginTop: 6 }}>Sign in to your expense tracker</p>
         </div>
         <div className="card">
